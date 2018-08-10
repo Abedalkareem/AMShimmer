@@ -3,9 +3,4 @@ use_frameworks!
 target 'AMShimmer_Example' do
   pod 'AMShimmer', :path => '../'
 
-  target 'AMShimmer_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

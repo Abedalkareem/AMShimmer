@@ -1,0 +1,6 @@
+framework module AMShimmer {
+  umbrella header "AMShimmer-umbrella.h"
+
+  export *
+  module * { export * }
+}

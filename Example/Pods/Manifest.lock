@@ -1,0 +1,16 @@
+PODS:
+  - AMShimmer (0.1.0)
+
+DEPENDENCIES:
+  - AMShimmer (from `../`)
+
+EXTERNAL SOURCES:
+  AMShimmer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMShimmer: bf7ba309862ebd5b0a7048f85ad7c60de7b44114
+
+PODFILE CHECKSUM: 129c566d89cd9fe26c6d567d931ffa08472976c6
+
+COCOAPODS: 1.5.3

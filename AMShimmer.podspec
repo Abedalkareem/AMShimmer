@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AMShimmer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AMShimmer.'
+  s.summary          = 'AMShimmer help you to add a shimmering effect.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Shimmer help you to add a shimmering effect to any view or table view in your app in very easy way.
                        DESC
 
   s.homepage         = 'https://github.com/Abedalkareem/AMShimmer'
@@ -26,9 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Abedalkareem' => 'abedalkareem.omreyh@yahoo.com' }
   s.source           = { :git => 'https://github.com/Abedalkareem/AMShimmer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
+  s.swift_version = '4.0'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'AMShimmer/Classes/**/*'
   
