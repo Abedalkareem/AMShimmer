@@ -1,12 +1,20 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/Abedalkareem/AMShimmer/master/logo.png"  width="350">  </center>
 </p>
+<br>
 
 
 [![CI Status](https://img.shields.io/travis/Abedalkareem/AMShimmer.svg?style=flat)](https://travis-ci.org/Abedalkareem/AMShimmer)
 [![Version](https://img.shields.io/cocoapods/v/AMShimmer.svg?style=flat)](https://cocoapods.org/pods/AMShimmer)
 [![License](https://img.shields.io/cocoapods/l/AMShimmer.svg?style=flat)](https://cocoapods.org/pods/AMShimmer)
 [![Platform](https://img.shields.io/cocoapods/p/AMShimmer.svg?style=flat)](https://cocoapods.org/pods/AMShimmer)
+
+## Screenshot
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Abedalkareem/AMShimmer/master/screenshot.gif">  </center>
+</p>
+
 
 ## Example
 
