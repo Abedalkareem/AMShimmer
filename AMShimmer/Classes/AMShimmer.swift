@@ -30,7 +30,8 @@
 
 import UIKit
 
-public class AMShimmer {
+@objc
+public class AMShimmer : NSObject {
     
     
     // MARK: - Properties
@@ -53,6 +54,7 @@ public class AMShimmer {
     /// - parameter isToLastView: The value determines if you want it to have shimmer effect in
     ///             all deepest subviews in your view hierarchy, or the direct subviews.
     ///
+    @objc
     public class func start(for view: UIView, except views: [UIView] = [], isToLastView: Bool = false) {
         
         guard view.subviews.count != 0 else {
@@ -74,6 +76,7 @@ public class AMShimmer {
     ///
     /// - parameter tableView: The tableView that you want to run the shimmer effect for it's cells.
     ///
+    @objc
     public class func start(for tableView: UITableView) {
         tableView.visibleCells.forEach { search(view: $0) }
         tableView.isUserInteractionEnabled = false
@@ -96,6 +99,7 @@ public class AMShimmer {
     ///
     /// - parameter view: The view that you want to stop the shimmer effect that run on it.
     ///
+    @objc
     public class func stop(for view: UIView) {
         
         guard view.subviews.count != 0 else {
