@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMShimmer'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'AMShimmer help you to add a shimmering effect.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Shimmer help you to add a shimmering effect to any view or table view in your ap
   s.author           = { 'Abedalkareem' => 'abedalkareem.omreyh@yahoo.com' }
   s.source           = { :git => 'https://github.com/Abedalkareem/AMShimmer.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
 
   s.ios.deployment_target = '9.0'
 

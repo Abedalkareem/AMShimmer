@@ -1,5 +1,5 @@
 PODS:
-  - AMShimmer (0.1.0)
+  - AMShimmer (1.0.0)
 
 DEPENDENCIES:
   - AMShimmer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMShimmer: bf7ba309862ebd5b0a7048f85ad7c60de7b44114
+  AMShimmer: a0fc8f23d2fb0ec3af1efbd36b57125c01bd471d
 
 PODFILE CHECKSUM: 129c566d89cd9fe26c6d567d931ffa08472976c6
 
