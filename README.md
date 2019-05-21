@@ -45,6 +45,23 @@ class ExampleViewController: UIViewController {
 
 ```
 
+## Customization
+
+To change the duration you can use:
+```
+AMShimmer.settings.duration = 1 // The defualt is 0.5
+```
+To change the repeat count:
+```
+AMShimmer.settings.repeatCount = 5 // The defualt is HUGE
+```
+To change the colors:
+```
+AMShimmer.settings.darkColor = UIColor.red.cgColor
+AMShimmer.settings.lightColor = UIColor.white.cgColor
+```
+
+
 ## Installation
 
 AMShimmer is available through [CocoaPods](https://cocoapods.org). To install
