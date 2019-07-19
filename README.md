@@ -71,6 +71,12 @@ it, simply add the following line to your Podfile:
 pod 'AMShimmer'
 ```
 
+Or you can use [Carthage](https://github.com/Carthage/Carthage).
+
+```
+github "Abedalkareem/AMShimmer"
+```
+
 ## Author
 
 Abedalkareem, abedalkareem.omreyh@yahoo.com
