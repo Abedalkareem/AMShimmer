@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		252A4CC4EDED4D9C1A9DFF304DDD15DF /* Pods-AMShimmer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66241D7F84021F9FCB0917827D91C76 /* Pods-AMShimmer_Example-dummy.m */; };
 		7DB8A775D3486A5D73954A0F6A5CE9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A5AC5568979E332CAB26F244ECD3C97 /* AMShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDD8F3F2E2F36FCD622E53F478AABA /* AMShimmer.swift */; };
 		9DB3882DE96021D15BB4121D90E71D43 /* AMShimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4701EF80EA6EF76A410060E6784B83 /* AMShimmer-dummy.m */; };
-		C6DEAA6022E1AE4C0037BDD3 /* AMShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEAA5F22E1AE4C0037BDD3 /* AMShimmer.swift */; };
 		D96CBC653268EB6AF652A3C535384C0A /* AMShimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D79379CD8D07C8A4C58FECD2F6B5D0AE /* AMShimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F24442F19F9DEAABE59E29BC0F6F2C7D /* Pods-AMShimmer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723F537D22DD5F06ACC094F5A5F8CA4D /* Pods-AMShimmer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB199FC43AA4ACA542B87F6EDC323CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -30,21 +30,21 @@
 		1496D518DA4FF9BB3CBAE15FE056B0F4 /* Pods-AMShimmer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMShimmer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E0871AFB35BF2E647E55CDDC19E1C9A /* Pods-AMShimmer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMShimmer_Example-Info.plist"; sourceTree = "<group>"; };
 		2BE2CC35161885E1B47B26495F338385 /* Pods-AMShimmer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMShimmer_Example.modulemap"; sourceTree = "<group>"; };
-		313F199268031CC6B972378A85D640E3 /* AMShimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMShimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		313F199268031CC6B972378A85D640E3 /* AMShimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMShimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32287687D0323944B4BC34762515AE2C /* Pods_AMShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMShimmer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32287687D0323944B4BC34762515AE2C /* Pods_AMShimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMShimmer_Example.framework; path = "Pods-AMShimmer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B2EE38E1E6FC670D11BE1673A08E21 /* Pods-AMShimmer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMShimmer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BEDA902A0F3BD7E7C1CD37E38B73A02 /* AMShimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMShimmer-Info.plist"; sourceTree = "<group>"; };
 		50AC5F834BD680CD2144EE8D7C015994 /* AMShimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMShimmer-prefix.pch"; sourceTree = "<group>"; };
 		723F537D22DD5F06ACC094F5A5F8CA4D /* Pods-AMShimmer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMShimmer_Example-umbrella.h"; sourceTree = "<group>"; };
 		808EB57820153228B1C92D0A5B8D29EB /* AMShimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMShimmer.modulemap; sourceTree = "<group>"; };
 		8D4701EF80EA6EF76A410060E6784B83 /* AMShimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMShimmer-dummy.m"; sourceTree = "<group>"; };
-		8EB8805D67159F34F7F7CCCF36ABD737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8EB8805D67159F34F7F7CCCF36ABD737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9BDC9789C7074FC2AFC3134F7233F609 /* Pods-AMShimmer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMShimmer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5151DBF8772EF970F1A73FD2144CE8C /* AMShimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMShimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD9FDC5893CB7D91B3377761C7CD5894 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C6DEAA5F22E1AE4C0037BDD3 /* AMShimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AMShimmer.swift; path = AMShimmer/Classes/AMShimmer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5151DBF8772EF970F1A73FD2144CE8C /* AMShimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMShimmer.framework; path = AMShimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9FDC5893CB7D91B3377761C7CD5894 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7CDD8F3F2E2F36FCD622E53F478AABA /* AMShimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMShimmer.swift; path = AMShimmer/Classes/AMShimmer.swift; sourceTree = "<group>"; };
 		CA27FC9C254238964E06F12079C0609B /* AMShimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMShimmer.xcconfig; sourceTree = "<group>"; };
 		D66241D7F84021F9FCB0917827D91C76 /* Pods-AMShimmer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMShimmer_Example-dummy.m"; sourceTree = "<group>"; };
 		D79379CD8D07C8A4C58FECD2F6B5D0AE /* AMShimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMShimmer-umbrella.h"; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		50CCB729426E77219B8831F26BF865DE /* AMShimmer */ = {
 			isa = PBXGroup;
 			children = (
-				C6DEAA5F22E1AE4C0037BDD3 /* AMShimmer.swift */,
+				C7CDD8F3F2E2F36FCD622E53F478AABA /* AMShimmer.swift */,
 				CDB8D490BCEB135D5257A96AE972DC4E /* Pod */,
 				36AB079C303579AC7CAC9EF268E217C6 /* Support Files */,
 			);
@@ -243,11 +243,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					29B4191F255865446093230A061A9805 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -290,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB3882DE96021D15BB4121D90E71D43 /* AMShimmer-dummy.m in Sources */,
-				C6DEAA6022E1AE4C0037BDD3 /* AMShimmer.swift in Sources */,
+				9A5AC5568979E332CAB26F244ECD3C97 /* AMShimmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +313,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA27FC9C254238964E06F12079C0609B /* AMShimmer.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -339,7 +333,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -418,7 +411,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA27FC9C254238964E06F12079C0609B /* AMShimmer.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -500,7 +492,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
