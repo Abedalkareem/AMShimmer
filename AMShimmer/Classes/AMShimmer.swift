@@ -160,12 +160,12 @@ public class AMShimmer : NSObject {
 /// The class that hold the `AMShimmer` settings, like duration, colors and repeatCount.
 public class AMShimmerSettings {
     /// The duration of the moving line animation. The defualt `duration` is `0.5`
-    var duration = 0.5
+    public var duration = 0.5
     /// The dark color that move through the view. The defualt color is (red: 0.9333333333, green: 0.9333333333, blue: 0.9333333333, alpha: 1)
-    var darkColor = #colorLiteral(red: 0.9568627451, green: 0.9568627451, blue: 0.9568627451, alpha: 1).cgColor
+    public var darkColor = #colorLiteral(red: 0.9568627451, green: 0.9568627451, blue: 0.9568627451, alpha: 1).cgColor
     /// The light color arowned the dark color. The defualt color is (red: 0.968627451, green: 0.968627451, blue: 0.968627451, alpha: 1)
-    var lightColor = #colorLiteral(red: 0.968627451, green: 0.968627451, blue: 0.968627451, alpha: 1).cgColor
+    public var lightColor = #colorLiteral(red: 0.968627451, green: 0.968627451, blue: 0.968627451, alpha: 1).cgColor
     /// The repeat count for the animation, The defualt is `HUGE`.
-    var repeatCount = HUGE
+    public var repeatCount = HUGE
 }
 
