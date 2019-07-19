@@ -1,6 +1,6 @@
 {
   "name": "AMShimmer",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "summary": "AMShimmer help you to add a shimmering effect.",
   "description": "Shimmer help you to add a shimmering effect to any view or table view in your app in very easy way.",
   "homepage": "https://github.com/Abedalkareem/AMShimmer",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/Abedalkareem/AMShimmer.git",
-    "tag": "1.0.1"
+    "tag": "1.0.3"
   },
   "social_media_url": "https://twitter.com/AbedalkareemOmr",
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AMShimmer/Classes/**/*"
+  "source_files": "AMShimmer/Classes/**/*",
+  "swift_version": "5.0"
 }
